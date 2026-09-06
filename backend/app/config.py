@@ -24,4 +24,7 @@ class Settings(BaseSettings):
     # session handling
     session_secret_key: str
 
+    # login special code
+    signup_code: str
+
 settings = Settings()
